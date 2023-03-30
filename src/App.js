@@ -16,7 +16,8 @@ function App() {
         <div id="navigation">
           <Link to="/">Home</Link>{" "}
           <Link to="/japanese">Japanese</Link>{" "}
-          <Link to="/gallery">Gallery</Link>
+          <Link to="/gallery">Gallery</Link>{" "}
+          <a href="">Resume</a>
         </div>
 
       <div id="content">

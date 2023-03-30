@@ -132,7 +132,7 @@ function Home() {
                     <div className="flex">
                         <div>
                             <h2>如煙</h2>
-                            <iframe width="650" height="500" src="https://www.youtube.com/embed/Qd9YGu3FWgc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <iframe src="https://www.youtube.com/embed/Qd9YGu3FWgc" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                             <p style={{textAlign: "end"}}>
                                 有沒有那麼一個世界 永遠不天黑<br></br>
                                 星星太陽萬物都 聽我的指揮<br></br>
@@ -142,7 +142,7 @@ function Home() {
                         </div>
                         <div>
                             <h2>玫瑰少年</h2>
-                            <iframe width="650" height="500" src="https://www.youtube.com/embed/65IKNssGRPI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <iframe src="https://www.youtube.com/embed/65IKNssGRPI" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                             <p style={{textAlign: "end"}}>
                                 別讓誰去 改變了你<br></br>
                                 你是你 或是妳 都行<br></br>

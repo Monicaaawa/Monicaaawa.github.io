@@ -22,7 +22,7 @@ const animeInfo = [
 ]
 
 
-function DramaList(prop) {
+function DramaList() {
     return(
         <div>
             <div className="section">

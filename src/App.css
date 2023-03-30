@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+HK:wght@500&family=Raleway:ital,wght@1,500&display=swap');
 
+* { 
+  box-sizing: border-box;
+}
+
 img {
   margin-left: 80px;
   margin-right: 80px;
@@ -9,6 +13,8 @@ img {
 iframe {
   margin-top: 20px;
   margin-bottom: 20px;
+  width: 80vh;
+  height: 60vh;
 }
 
 .section {
@@ -19,6 +25,14 @@ iframe {
   padding-bottom: 20px;
   line-height: 200%;
   font-size: 18px;
+}
+
+.gallery {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
 }
 
 .japanese {
@@ -32,6 +46,7 @@ iframe {
 .flex {
   display: flex;
   justify-content: space-between;
+  flex: 1;
 }
 
 .background {
@@ -70,6 +85,10 @@ iframe {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   background-color: #FCFFFD;
   color: #4b5d66;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  min-height: 75vh;
 }
 
 #title {
@@ -117,19 +136,14 @@ iframe {
   letter-spacing: 2px;
 }
 
-#flexGallery {
-  display: flex;
-  justify-content: center;
-}
-
 #navigationEnd {
   background-color: #75bcb4;
   text-align: left;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-left: 20px;
-  padding-right: 20px;
+  position: relative;
+  bottom: 0;
 }
 
 #center {
