@@ -19,6 +19,7 @@ function App() {
           <Link to="/about">About</Link>{" "}
           <Link to="/japanese">Japanese</Link>{" "}
           <Link to="/gallery">Gallery</Link>{" "}
+          <a href="https://monicaaawa.github.io/personal-blog/">Blog</a>
           <a href="">Resume</a>
         </div>
 
