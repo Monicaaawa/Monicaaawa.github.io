@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import Home from './pages/Home';
+import About from './pages/About';
 import Japanese from './pages/Japanese';
 import Gallery from './pages/Gallery';
 import {
@@ -15,6 +16,7 @@ function App() {
     <Router>
         <div id="navigation">
           <Link to="/">Home</Link>{" "}
+          <Link to="/about">About</Link>{" "}
           <Link to="/japanese">Japanese</Link>{" "}
           <Link to="/gallery">Gallery</Link>{" "}
           <a href="">Resume</a>
@@ -23,6 +25,7 @@ function App() {
       <div id="content">
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
           <Route path="/japanese" element={<Japanese />} />
           <Route path="/gallery" element={<Gallery />} />
         </Routes>
