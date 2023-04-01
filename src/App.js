@@ -13,7 +13,7 @@ import {
 
 function App() {
   return (
-    <Router>
+    <Router basename='/'>
         <div id="navigation">
           <Link to="/">Home</Link>{" "}
           <Link to="/about">About</Link>{" "}
